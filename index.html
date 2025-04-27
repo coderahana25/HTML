@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section {
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to HTML Basics</h1>
+    </header>
+
+    <br>
+
+    <nav>
+        <a href="#text">Text</a> |
+        <a href="#lists">Lists</a> |
+        <a href="#image">Image</a> |
+        <a href="#links">Links</a> |
+        <a href="#table">Table</a> |
+        <a href="#form">Form</a>
+    </nav>
+
+    <section id="text">
+        <h2>Text Element</h2>
+        <p>This is a paragraph of text. HTML uses tags like &lt;p&gt; for paragraphs.</p>
+        <h3>Sub-heading</h3>
+        <p>Sub-headings are used to organize content into sections.</p>
+    </section>
+
+    <section id="lists">
+        <h2>List</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First step</li>
+            <li>Second step</li>
+            <li>Third step</li>
+        </ol>
+    </section>
+
+    <section id="image">
+        <h2>Image</h2>
+        <p>Below is an example of an image:</p>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    </section>
+
+    <section id="links">
+        <h2>Link</h2>
+        <p>Click below to visit a website:</p>
+        <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+    </section>
+
+    <section id="table">
+        <h2>Table</h2>
+        <p>Tables are great for displaying data:</p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>Form</h2>
+        <p>Forms collect user input:</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <br>
+
+    <footer>
+        <p>© 2025 HTML Basics Tutorial</p>
+    </footer>
+
+</body>
+</html>
